@@ -10,6 +10,7 @@ import L_HTML5 from "../../assets/img/skills/html-5.svg";
 import L_CSS3 from "../../assets/img/skills/css3.svg";
 import L_BOOTSTRAP4 from "../../assets/img/skills/bootstrap-4.svg";
 import L_REACT from "../../assets/img/skills/react.svg";
+import L_Mongo from "../../assets/img/skills/mongodb.svg"
 
 import "./projects-timeline.styles.css";
 
@@ -159,10 +160,195 @@ const TimeLine = () => {
                 </Accordion>
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton href="https://akjha96.github.io/RoboFriends/" target="_blank">
+                <UrlButton href="https://shubha0008.github.io/broadcast/" target="_blank">
                   SEE LIVE
                 </UrlButton>
-                <UrlButton href="https://github.com/shubha0008/broadcast-shubha" target="_blank">
+                <UrlButton href="https://github.com/shubha0008/broadcast" target="_blank">
+                  SOURCE CODE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
+          {/* Project: Money Manager App */}
+
+          <ImageEvent className="text-center" text="Money-Manager-App" >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle as={Card.Header} eventKey="0" className="p-2 text-center accordian-main">
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> Money-Manager-APP
+                        <hr />
+                        Get the expenditure and savings on daily and monthly basis . This is MERN Stack App .
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image src={L_REACT}alt="React" rounded className="image-style1 m-1"></Image> React
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image src={L_NODE_JS} alt="Node.js" rounded className="image-style1 m-1"></Image> Node.js
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image src={L_EXPRESS} alt="Express" rounded className="image-style1 m-1"></Image> Express
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image src={L_BOOTSTRAP4} alt="Express" rounded className="image-style1 m-1"></Image> Bootstrap
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image src={L_Mongo} alt="Express" rounded className="image-style1 m-1"></Image> MongoDB
+                            </span>
+                          </li>
+                        </ul> 
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton href="https://shubha0008.github.io/money-manager-frontend" target="_blank">
+                  SEE LIVE
+                </UrlButton>
+                <UrlButton href="https://github.com/shubha0008/money-manager-frontend" target="_blank">
+                  SOURCE CODE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
+
+
+
+          {/* Project: Event manager app */}
+
+          <ImageEvent className="text-center" text="Event-Manager-App" >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle as={Card.Header} eventKey="0" className="p-2 text-center accordian-main">
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> Event-Manager-App
+                        <hr />
+                        Create a room for your meeting with features of chatting and Video-call. 
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image src={L_REACT}alt="React" rounded className="image-style1 m-1"></Image> React
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image src={L_NODE_JS} alt="Node.js" rounded className="image-style1 m-1"></Image> Node.js
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image src={L_EXPRESS} alt="Express" rounded className="image-style1 m-1"></Image> Express
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image src={L_BOOTSTRAP4} alt="Express" rounded className="image-style1 m-1"></Image> Bootstrap
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image src={L_Mongo} alt="Express" rounded className="image-style1 m-1"></Image> MongoDB
+                            </span>
+                          </li>
+                        </ul> 
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton href="https://shubha0008.github.io/eventMgmt_frontend" target="_blank">
+                  SEE LIVE
+                </UrlButton>
+                <UrlButton href="https://github.com/shubha0008/eventMgmt_frontend" target="_blank">
+                  SOURCE CODE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
+
+
+          {/* Project: Book-Your-Show app */}
+
+          <ImageEvent className="text-center" text="Book-Your-Show" >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle as={Card.Header} eventKey="0" className="p-2 text-center accordian-main">
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> Book-Your-Show
+                        <hr />
+                        Book the upcoming shows in the nearest theatres .
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image src={L_REACT}alt="React" rounded className="image-style1 m-1"></Image> React
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image src={L_NODE_JS} alt="Node.js" rounded className="image-style1 m-1"></Image> Node.js
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image src={L_EXPRESS} alt="Express" rounded className="image-style1 m-1"></Image> Express
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image src={L_BOOTSTRAP4} alt="Express" rounded className="image-style1 m-1"></Image> Bootstrap
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image src={L_Mongo} alt="Express" rounded className="image-style1 m-1"></Image> MongoDB
+                            </span>
+                          </li>
+                        </ul> 
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton href="https://shubha0008.github.io/book_show_frontend" target="_blank">
+                  SEE LIVE
+                </UrlButton>
+                <UrlButton href="https://github.com/shubha0008/book_show_frontend" target="_blank">
                   SOURCE CODE
                 </UrlButton>
               </div>
